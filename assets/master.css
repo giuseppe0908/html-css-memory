@@ -105,6 +105,7 @@ header{
     font-size: 30px;
     color: orange;
   }
+
   .tram p{
     position: absolute;
     bottom: 10px;
@@ -114,17 +115,17 @@ header{
     color: red;
   }
 
-  .tram > p{
+  .tram:hover{
+    background-color: white;
+    background-image: url(../assets/img5/Tram.png);
+  }
+
+  p{
     display: none;
   }
-  .card:hover .tram{
+  .card:hover p{
     display: block;
   }
-   .tram:hover{
-     background-color: white;
-     background-image: url(../assets/img5/Tram.png);
-
-   }
 
 footer p{
   /* font-family: 'Brush Script MT', cursive; */
